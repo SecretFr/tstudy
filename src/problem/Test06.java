@@ -8,6 +8,7 @@ public class Test06 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		Calendar calendar = Calendar.getInstance();
+		System.out.println(calendar);
 		int currYear = calendar.get(Calendar.YEAR);
 		
 		String[] info = new String[4];

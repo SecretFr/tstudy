@@ -6,11 +6,11 @@ class Info {
 	String birth;
 	
 	Info(){};
-	Info(String name, String addr, String birth){
-		this.name = name;
-		this.addr = addr;
-		this.birth = birth;
-	}
+//	Info(String name, String addr, String birth){
+//		this.name = name;
+//		this.addr = addr;
+//		this.birth = birth;
+//	}
 }
 
 public class Test11 {
