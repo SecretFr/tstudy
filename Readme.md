@@ -27,3 +27,20 @@
 
 -Call By Reference의 경우 참조값(Hash Code)을 전달한 객체는 자신의 참조값이
  전달됨으로 값의 변화가 발생할 수 있고 heap memory를 공유하게 된다.
+
+*String 객체의 특징*
+-한번 생선된 객체는 불변이다. ("안녕" -> (X) "안녕하세요")
+
+-클래스를 객체화할때 new를 사용하지만 String은 사용하지 않아도 된다.
+ (String name = "jaewon";
+
+-메모리상에서 같은 문자열을 공유한다.
+ String name = "jaewon";
+ String str = "jaewon";
+ name hashcode와 str hashcode는 같다.
+
+-문자열을 변경할때
+ 메모리상에는 "안녕"이라는 객체와 "안녕하세요"라는 객체가 둘다 존재
+ 변경되어지는 객체가 있을때마다 새로운 객체가 만들어진다.
+
+
