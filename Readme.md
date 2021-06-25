@@ -81,6 +81,8 @@ Method Overloading
 
 static 변수(정벅 변수, 클래스 변수), static method(클래스 메소드)
 
+-static 변수는 Data 영역에 올라간다.
+
 -객체를 만들지 않고 변수나 메소드의 사용이 가능하다.
 
 -보통 간단한 값의 처리시 주로 이용한다.
