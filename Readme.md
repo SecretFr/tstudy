@@ -21,6 +21,7 @@
 
 
 Call By Reference: 참조값에 의한 호출(Hash Code)
+
 -메소드로 참조 타입을 전송할 수 있다.
 
 -메소드로 클래스의 객체를 전달하면 메모리가 전달되는 것이 아니라
@@ -31,15 +32,19 @@ Call By Reference: 참조값에 의한 호출(Hash Code)
 
 
 String 객체의 특징
+
 -한번 생선된 객체는 불변이다. ("안녕" -> (X) "안녕하세요")
 
 -클래스를 객체화할때 new를 사용하지만 String은 사용하지 않아도 된다.
  (String name = "jaewon";
 
 -메모리상에서 같은 문자열을 공유한다.
- String name = "jaewon";
- String str = "jaewon";
- name hashcode와 str hashcode는 같다.
+ 
+String name = "jaewon";
+ 
+String str = "jaewon";
+ 
+name hashcode와 str hashcode는 같다.
 
 -문자열을 변경할때
  메모리상에는 "안녕"이라는 객체와 "안녕하세요"라는 객체가 둘다 존재
