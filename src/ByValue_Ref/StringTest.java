@@ -9,7 +9,7 @@ class Change{
 }
 
 public class StringTest {
-	public String changeString(String src) {
+	private String changeString(String src) {
 		src = "JSP";
 		return src;
 //		System.out.println(src);
