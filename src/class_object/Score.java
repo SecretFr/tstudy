@@ -7,4 +7,6 @@ public class Score {
 	int math;
 	float sum;
 	float avg;
+	
+//	Score(int kor, int eng, int math){}
 }
