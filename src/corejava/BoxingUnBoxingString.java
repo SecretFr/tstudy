@@ -13,6 +13,7 @@ public class BoxingUnBoxingString {
 		str.add('C');
 		str.add('D');
 		str.add('E');
+		str.remove(3);
 		
 		print(str);
 	}
