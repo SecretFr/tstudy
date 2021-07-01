@@ -121,4 +121,27 @@ name hashcode와 str hashcode는 같다.
 - super(): 부모 클래스의 생성자를 호출합니다.
 - 생성자: new를 이용하여 메모리 할당이 끝난 후 메모리를 초기화하는 역활, 멤버 변수에 초기값을 할당합니다.
 
+## SQL 언어의 종류
+- DQL(Data Query Language) : 데이터 질의어, 데이터 검색, 출력과 관련된 쿼리
+```
+SELECT..FROM..WHERE
+```
+- DML(Data Manipulation Language) : 데이터 조작어, 데이터 입력, 수정, 삭제와 관련된 쿼리
+```
+INSERT, UPDATE, DELETE
+```
+- DDL(Data Definition Language) : 데이터 정의어, 데이블 생성 및 삭제, 데이블 구조 수정과 관련된 쿼리
+```
+CREATE TABLE, DROP TABLE, ALTER TABLE
+```
+- DCL(Data Control Language) : 데이터 제어 언어, 권한 부여와 관련된 쿼리
+```
+GRANT, REVOKE
+```
+- TCL(Transaction Control Language) : 트랜잭션 제어 언어, 안정적인 데이터 처리를 위한 데이터 처리와 관련된 명령어
+```
+COMMIT, ROLLBACK, SAVEPOINT
+```
+
+
 
